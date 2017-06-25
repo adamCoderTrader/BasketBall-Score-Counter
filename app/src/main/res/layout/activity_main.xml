@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.adamoates.basketballpointcounter.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/team_name_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeTeam" />
+
+            <TextView
+                android:id="@+id/home_team_score_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeTeamScore" />
+
+            <Button
+                android:id="@+id/two_point_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/twoPointer" />
+
+            <Button
+                android:id="@+id/three_point_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/threePointer" />
+
+            <Button
+                android:id="@+id/free_throw_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/freeThrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/visitors_team_name_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/visitorsTeam" />
+
+            <TextView
+                android:id="@+id/visitors_team_score_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/homeTeamScore" />
+
+            <Button
+                android:id="@+id/visitors_two_point_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/twoPointer" />
+
+            <Button
+                android:id="@+id/visitors_three_point_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/threePointer" />
+
+            <Button
+                android:id="@+id/visitors_free_throw_button_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/freeThrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_button_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset" />
+
+
+</LinearLayout>

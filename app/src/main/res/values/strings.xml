@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasketBall Point Counter</string>
+    <string name="freeThrow">"Free Throw"</string>
+    <string name="threePointer">"3 Pointer"</string>
+    <string name="twoPointer">"2 Pointer"</string>
+    <string name="homeTeam">"Home Team"</string>
+    <string name="visitorsTeam">"Visitors Team"</string>
+    <string name="reset">"reset"</string>
+    <string name="homeTeamScore">"0"</string>
+    <string name="visitorTeamScore">"0"</string>
+</resources>
